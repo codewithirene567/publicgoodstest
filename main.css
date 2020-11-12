@@ -29,9 +29,9 @@
 #bamboo_desktop {
     width:90%;
     height:auto;
-    position: absolute;
+    /* position: absolute; */
     padding-left: 80px;
-    padding-right: 80px;
+    /* padding-right: 60px; */
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -50,3 +50,43 @@
 #paragraph2{
     color:lightgray;
 }
+
+.pad{
+    float: left;
+    width: 50%;
+    padding: 5px;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#pad_pics::after{
+    content:"";
+    clear: both;
+    display: table;
+  
+}
+
+#third_words{
+    z-index: 1;
+    position: absolute;
+   
+    color:black;
+    font-size: large;
+    top: 145%;
+    left: 5%;
+    
+}
+
+#fourth_words{
+    z-index: 1;
+    position: absolute;
+   
+    color:black;
+    font-size: large;
+    top: 145%;
+    left: 55%;
+}
+
