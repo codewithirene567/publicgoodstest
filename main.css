@@ -90,3 +90,31 @@
     left: 55%;
 }
 
+.products{
+    float: left;
+    width: 25%;
+    padding: 5px;
+    
+}
+
+
+#products_pics::after{
+    content:"";
+    clear: both;
+    display: table;
+  
+}
+
+#three_bucks{
+    font-weight: bold
+}
+
+#shop_now{
+    color:white;
+    background-color: orangered;
+    border: none;
+    position: absolute;
+    left: 50%;
+    align-self: center;
+    padding: 15px 32px;
+}
