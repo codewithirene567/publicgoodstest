@@ -60,6 +60,11 @@
 
 *{
     box-sizing: border-box;
+    
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+  
 }
 
 #pad_pics::after{
@@ -116,5 +121,31 @@
     position: absolute;
     left: 50%;
     align-self: center;
+    padding: 15px 32px;
+}
+
+#new_to{
+        width:100%;
+        height:auto;
+
+}
+
+#fifth_words {
+    z-index: 1;
+    position: absolute;
+    top: 2000px;
+    left: 90px;
+}
+
+#seen_in{
+    width:30%;
+    height:auto;
+}
+
+#shop_now2{
+    color:white;
+    background-color: orangered;
+    border: none;
+    position: absolute;
     padding: 15px 32px;
 }
