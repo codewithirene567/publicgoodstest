@@ -1,6 +1,7 @@
 #hero_desktop {
     width:100%;
     height:auto;
+   
 }
 
 #first_words {
@@ -23,4 +24,29 @@
     background-color: orangered;
     border: none;
     padding: 15px 32px;
+}
+
+#bamboo_desktop {
+    width:90%;
+    height:auto;
+    position: absolute;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#second_words{
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    color:white;
+    font-size: large;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#paragraph2{
+    color:lightgray;
 }
